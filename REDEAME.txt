@@ -1,34 +1,36 @@
 ######CONTROLE DE ESTOQUE##############
-Vers„o 3.01
+Vers√£o 3.01
 
 Autor:Luiz Carlos
 
-1 - Aleta de senha incorreta.
-
+1 - Instala√ß√£o de Validadores de senha incorreta.
+2 - In√≠cio da modifica√ß√£o para o padr√£o PSR-1
+3 - imagem na tela inicial
+4 - Adi√ß√£o de senha no sistema 
 
 Autor: Jonathan Jaci
 ######CONTROLE DE ESTOQUE##############
-Vers„o 2.01
+Vers√£o 2.01
 Autor: Jonathan Jaci
 
-CorreÁ„o de alguns erros no script
-AdiÁ„o do sistema de login
+Corre√ß√£o de alguns erros no script
+Adi√ß√£o do sistema de login
 
 1 - Instalando o controle.
 
 - Para instalar o controle basta copiar os arquivos dentro de uma pasta no servidor.
-- Execute o arquivo db.sql para criar as tabelas e padrıes de dados.
-- Acesse o arquivo DB.php na pasta application/controler e configure os dados de conex„o com seu BD.
-- Acesse o arquivo db.php na pasta principal e configure os dados de usuario, o usuario padr„o e admin senha: admin.
+- Execute o arquivo db.sql para criar as tabelas e padr√µes de dados.
+- Acesse o arquivo DB.php na pasta application/controler e configure os dados de conex√£o com seu BD.
+- Acesse o arquivo db.php na pasta principal e configure os dados de usuario, o usuario padr√£o e admin senha: admin.
 
-2 - Opcıes
+2 - Opc√µes
 
 
 O sistema de estoque permite que seja cadastrado clientes, formecedores e produtos.
-AlÈm disos È permitidoo cadastro de categorias de produtos que È carregado via ajax na hora de dar entrada ou 
+Al√©m disos √© permitidoo cadastro de categorias de produtos que √© carregado via ajax na hora de dar entrada ou 
 saida de um produto.
-O sistema tambÈm possui um aviso de estoque minimo que avisa sempre que um produto estive em quantidade
-abaixo da desej·vel em estoque.
+O sistema tamb√©m possui um aviso de estoque minimo que avisa sempre que um produto estive em quantidade
+abaixo da desej√°vel em estoque.
 O sistema de estoque permite que seja cadastrado usuario para acesso ao sistema.
 
 
@@ -36,20 +38,20 @@ O sistema de estoque permite que seja cadastrado usuario para acesso ao sistema.
 3 - Compatibilidade.
 
 
-O sistema foi testado no Google Chrome Vers„o 36 em resoluÁ„o 1366 x 768.
+O sistema foi testado no Google Chrome Vers√£o 36 em resolu√ß√£o 1366 x 768.
 
 
-Vers„o anterior ----------
+Vers√£o anterior ----------
 
 ######CONTROLE DE ESTOQUE##############
-Vers„o 1.01
+Vers√£o 1.01
 Autor: Osmar Malheiros
 
-CorreÁ„o de alguns erros no script
+Corre√ß√£o de alguns erros no script
 
 
 
-Vers„o anterior ----------
+Vers√£o anterior ----------
 
 ######CONTROLE DE ESTOQUE##############
 
@@ -57,23 +59,23 @@ Vers„o anterior ----------
 1 - Instalando o controle.
 
 - Para instalar o controle basta copiar os arquivos dentro de uma pasta no servidor.
-- Execute o arquivo db.sql para criar as tabelas e padrıes de dados.
-- Acesse o arquivo DB.php na pasta application/controler e configure os dados de conex„o com seu BD.
-- Acesse o arquivo db.php na pasta principal e configure os dados de usuario, o usuario padr„o e admin senha: admin.
+- Execute o arquivo db.sql para criar as tabelas e padr√µes de dados.
+- Acesse o arquivo DB.php na pasta application/controler e configure os dados de conex√£o com seu BD.
+- Acesse o arquivo db.php na pasta principal e configure os dados de usuario, o usuario padr√£o e admin senha: admin.
 
-2 - Opcıes
+2 - Opc√µes
 
 
 O sistema de estoque permite que seja cadastrado clientes, formecedores e produtos.
-AlÈm disos È permitidoo cadastro de categorias de produtos que È carregado via ajax na hora de dar entrada ou 
+Al√©m disos √© permitidoo cadastro de categorias de produtos que √© carregado via ajax na hora de dar entrada ou 
 saida de um produto.
-O sistema tambÈm possui um aviso de estoque minimo que avisa sempre que um produto estive em quantidade
-abaixo da desej·vel em estoque.
+O sistema tamb√©m possui um aviso de estoque minimo que avisa sempre que um produto estive em quantidade
+abaixo da desej√°vel em estoque.
 
 
 
 3 - Compatibilidade.
 
 
-O sistema foi testado no firefox em resoluÁ„o 1024 x 768.
+O sistema foi testado no firefox em resolu√ß√£o 1024 x 768.
  

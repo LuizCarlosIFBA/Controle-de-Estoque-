@@ -1,0 +1,40 @@
+<?php
+//Oculta os notices
+ini_set( 'display_errors', 0 );
+// 
+$acao=$_GET['acao'];
+$id=$_GET['id'];
+switch ($acao){
+	case 'formcadastro':
+	$form=new Form("retirante");
+	$form->FormCadastro('','cadastrar');	
+	break;
+	
+	case 'cadastrar':
+	$retirantes=new retirantes("");
+	$retirantes->Cadastrar();
+	break;
+	
+	case 'listar':
+	$retirantes=new retirantes();
+	$retirantes->ListarRetirantes();
+	break;
+	
+	case 'deletar':
+	$retirantes=new retirantes();
+	$retirantes->Deletar($id);
+	break;
+	
+	case 'formeditar':
+	$form=new Form("retirante");
+	$form->FormEditar("editar",$id);
+	break;
+	
+	case 'editar':
+	$retirantes=new retirantes();
+	$retirantes->Atualizar($id);
+	
+}
+
+
+?>
